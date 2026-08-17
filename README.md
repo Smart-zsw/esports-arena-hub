@@ -131,20 +131,6 @@
 
 ---
 
-<!-- 截图放进 docs/screenshots/ 之后，取消下面的注释
-## 截图
-
-| 赛程看板 | 出线情景推演 |
-|---|---|
-| ![赛程看板](docs/screenshots/board.png) | ![出线推演](docs/screenshots/scenarios.png) |
-
-| 比赛详情 | 排行榜 |
-|---|---|
-| ![比赛详情](docs/screenshots/match.png) | ![排行榜](docs/screenshots/leaderboard.png) |
--->
-
----
-
 ## 声明
 
 - 站内积分为虚拟计分工具，**免费发放、不可购买、不可转让、不可提现、不可兑换任何现实财物或权益**；站点不设任何支付、充值、打赏或结算通道。
