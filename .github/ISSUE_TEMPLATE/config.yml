@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 聊赛事 / 随便问问
+    url: https://github.com/Smart-zsw/esports-arena-hub/discussions
+    about: 不是申请也不是报错的话，来 Discussions 聊
+  - name: 打开站点
+    url: https://arena.zswclub.com
+    about: 虚拟积分 · 无充值无提现 · 邀请制

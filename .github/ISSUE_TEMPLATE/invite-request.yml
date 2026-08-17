@@ -1,0 +1,45 @@
+name: 申请邀请码
+description: 想加入站点玩的话，填一下这个
+title: "[邀请] "
+labels: ["邀请申请"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        站点是虚拟积分的赛事预测游戏，**不花钱、不能充值、不能提现**，纯粹是朋友之间比眼光。
+        个人业余搭的，随时可能出错或调整，不作任何承诺 —— 当个乐子就好。
+        填完我会在这里回你邀请码，然后关掉这条 Issue。
+  - type: input
+    id: nickname
+    attributes:
+      label: 想用的昵称
+      description: 1–16 字，可用中文，排行榜上显示它
+      placeholder: 例如：老鼠爱大米
+    validations:
+      required: true
+  - type: dropdown
+    id: interest
+    attributes:
+      label: 主要关注哪个项目
+      options:
+        - 英雄联盟
+        - 王者荣耀
+        - 两个都看
+    validations:
+      required: true
+  - type: textarea
+    id: about
+    attributes:
+      label: 打个招呼
+      description: 支持哪支队、从哪听说的、想看什么功能，随便说两句
+    validations:
+      required: false
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: 确认
+      options:
+        - label: 我知道站内积分是虚拟计分工具，免费发放，不能购买、转让、提现或兑换任何现实财物
+          required: true
+        - label: 我已成年，参与只是为了娱乐
+          required: true
